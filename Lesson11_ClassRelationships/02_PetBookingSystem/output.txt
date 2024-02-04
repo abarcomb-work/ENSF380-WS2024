@@ -1,0 +1,28 @@
+Ellie May
+Not enrolled
+First attempt at enrolling in rewards a success?
+false
+Second attempt at enrolling in rewards a success?
+true
+2314579
+10
+110
+
+Shadow
+Dr. Louise Hesco
+true
+
+Care for Shadow:
+NexGard, Interceptor
+Give NexGard on Monday and Interceptor on Friday.
+1 cup of provided food twice daily.
+
+Employees of Manager 1:
+Aaron Woods
+9882
+Penny Mase
+5116
+
+Aaron Woods enjoyed taking care of Shadow. See you next time!
+
+End of example output.
