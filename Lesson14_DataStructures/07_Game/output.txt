@@ -1,0 +1,136 @@
+Meet our characters.
+
+Name: Katniss
+Life: 100
+Class: Warrior
+Says: I AM KATNISS THE WARRIOR!!!!!
+Attack speed: 110
+Damage: 12
+Attack: Katniss attacks with their bow and knife.
+
+Name: Xena
+Life: 100
+Class: Warrior
+Says: I AM XENA THE WARRIOR!!!!!
+Attack speed: 92
+Damage: 12
+Attack: Xena attacks with their sword and short sword.
+
+Name: Alexander Hamilton
+Life: 100
+Class: Rogue
+Says: ....(I am Alexander Hamilton the Rogue.)....
+Attack speed: 90
+Damage: 10
+Attack: Alexander Hamilton attacks with their knife.
+
+Name: Aaron Burr
+Life: 100
+Class: Rogue
+Says: ....(I am Aaron Burr the Rogue.)....
+Attack speed: 91
+Damage: 10
+Attack: Aaron Burr attacks with their knife.
+
+Starting a duel between Alexander Hamilton and Aaron Burr.
+Aaron Burr says: ....(Game on.)....
+Alexander Hamilton says: ....(Let's go.)....
+Aaron Burr attacks with their knife.
+Aaron Burr does 9 damage.
+Alexander Hamilton has 91 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 10 damage.
+Aaron Burr has 90 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 5 damage.
+Alexander Hamilton has 86 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 10 damage.
+Aaron Burr has 80 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 10 damage.
+Alexander Hamilton has 76 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 5 damage.
+Aaron Burr has 75 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 8 damage.
+Alexander Hamilton has 68 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 5 damage.
+Aaron Burr has 70 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 10 damage.
+Alexander Hamilton has 58 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 10 damage.
+Aaron Burr has 60 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 7 damage.
+Alexander Hamilton has 51 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 3 damage.
+Aaron Burr has 57 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 5 damage.
+Alexander Hamilton has 46 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 8 damage.
+Aaron Burr has 49 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 2 damage.
+Alexander Hamilton has 44 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 4 damage.
+Aaron Burr has 45 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 3 damage.
+Alexander Hamilton has 41 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 2 damage.
+Aaron Burr has 43 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 5 damage.
+Alexander Hamilton has 36 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 2 damage.
+Aaron Burr has 41 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 9 damage.
+Alexander Hamilton has 27 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 7 damage.
+Aaron Burr has 34 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 1 damage.
+Alexander Hamilton has 26 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 8 damage.
+Aaron Burr has 26 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 4 damage.
+Alexander Hamilton has 22 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 5 damage.
+Aaron Burr has 21 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 8 damage.
+Alexander Hamilton has 14 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 3 damage.
+Aaron Burr has 18 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 3 damage.
+Alexander Hamilton has 11 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 8 damage.
+Aaron Burr has 10 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 8 damage.
+Alexander Hamilton has 3 life remaining.
+Alexander Hamilton attacks with their knife.
+Alexander Hamilton does 8 damage.
+Aaron Burr has 2 life remaining.
+Aaron Burr attacks with their knife.
+Aaron Burr does 3 damage.
+Alexander Hamilton has died!

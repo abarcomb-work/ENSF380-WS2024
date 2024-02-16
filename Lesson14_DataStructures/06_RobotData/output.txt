@@ -1,0 +1,19 @@
+Data record 0: Robot 890A - - [02/03/2022] "START - NE (ultrasonic)"
+Data record 6: Robot 227D - - [25/04/2022] "FORWARD - N (lidar)"
+Robot ID: 890A
+Date: 2022-03-02
+Action: START
+Direction: NE
+Sensor: ultrasonic
+
+Log line 4: Robot 405A - - [10/04/2022] "RIGHT - E (light)"
+Action: RIGHT, Direction: East
+Sensor: light
+
+Test all levels of cloning:
+false
+false
+false
+false
+false
+Uncomment below to test exceptions...

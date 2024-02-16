@@ -1,0 +1,50 @@
+The following information applies to the bonus submission attached to Lab E. It does not apply to Lab E, which is graded as pass/fail. The bonus submission must be completed individually, but may build upon the group lab submission.
+
+Grading Rubric (15 marks + 7 bonus) 
+Note: You must pass 15 marks to begin scoring bonus points, regardless of which tests fail/pass.
+
+You may not receive any bonus marks if:
+- Your code does not compile
+- Your submission is in the wrong format
+- You do not include the correct package declaration
+- You modify the given code
+- You do not submit all required files: CharacterRogue.java, CharacterWarrior.java, Duel.java, GameCharacter.java, SingleUseMethodException.java
+- You do not submit the optional files associated with the bonus: PrintHTML.java, PrintOutput.java, PrintPlaintext.java
+- You submit any files other than the required and optional files. 
+
+Each method is expected to meet the requirements provided in the comments and UML diagram (takes the specified arguments, returns the correct type, etc.).
+
+CharacterRogue Tests (6 marks)
+1 mark: talk() returns the correctly formatted output [RogueTalkTest]
+1 mark: getAttackMessage() returns the correctly formatted output [RogueAttackMessageTest]
+1 mark: getWeapon() returns the correct value/type [RogueGetWeaponTest]
+1 mark: constructor throws an exception correctly (when called with duplicate priority) [RogueConstructorExceptionTest]
+1 mark: getCharacterName() and getCharacterClass() both return the correct value/type [RogueCharacterPersonalDataTest]
+1 mark: getAttackPriority() and getAttackDamage() both return the correct value/type [RogueCharacterAttackDataTest]
+
+GameCharacter Tests (4 marks)
+1 mark: WARRIOR enum method asString() and ROGUE enum method asString() return the correct value/type [CharacterClassesEnumAsStringTest]
+1 mark: variable attackPriorities contains expected values after one warrior was created [GameCharacterAttackPrioritiesWithOneCharacterTest]
+1 mark: variable attackPriorities contains expected values after multiple characters are created (including at least one rogue) [GameCharacterAttackPrioritiesWithMultipleCharactersTest]
+1 mark: validateAndRecordAttackPriority() throws an exception correctly [ValidateAndRecordAttackPriorityExceptionTest]
+
+Implementation was consistent with UML diagram Tests (5 marks)
+2 marks: existing GameCharacter code was not modified (access via CharacterWarrior) [GameCharacterUnmodifiedCharacterClassTest]
+2 marks: existing GameCharacter code was not modified (access via Duel) [GameCharacterUnmodifiedDuelStartTest, GameCharacterUnmodifiedDuelEndTest]
+1 mark: CharacterRogue only contains constructor shown in diagram [RogueExpectedConstructorOnlyTest]
+
+
+You may receive bonus marks for completing the optional task of implementing the interface PrintOutput and the associated classes PrintPlainText and PrintHTML. This work must be done individually.
+
+PrintOutput Tests (1 marks)
+1 mark: is implemented by PrintPlaintext and PrintHTML [PrintOutputImplementationTest]
+
+PrintPlaintext Tests (3 marks)
+1 mark: printMessage() prints the correct output [PrintPlaintextMessageTest]
+1 mark: printFightLog() prints the correct output [PrintPlaintextFightLogTest]
+1 mark: printStats() prints the correct output [PrintPlaintextStatsTest]
+
+PrintHTML Tests (3 marks)
+1 mark: printMessage() prints the correct output [PrintHTMLMessageTest]
+1 mark: printFightLog() prints the correct output [PrintHTMLFightLogTest]
+1 mark: printStats() prints the correct output [PrintHTMLStatsTest]
