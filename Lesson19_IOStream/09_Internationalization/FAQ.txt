@@ -1,0 +1,64 @@
+Below are some common questions about the assignment.
+
+1. Should I include .ser and .txt files with my submission?
+
+No, you should only include .java files.
+
+2. Do I need to include all the .java files?
+
+Yes, you should include all the Java files you write to complete the task.
+
+3. Can it be assumed that months and days will always be in order in any data file?
+
+Yes. Regardless of language, the data file will always have the same format of the 12 months in order, followed by the 31 days in order, followed by the sentence with formatting. The sentence will always contain the same formatting codes, but not necessarily in the same order. You cannot make assumptions about the length of any line; for example, "October" in English might be translated as "der Oktober" in German.
+
+4. Can we use the file extension (.txt or .ser) to determine file type?
+
+Yes, you can assume that the extension will be a valid description of the contents in our testing.
+
+5. Do I need to check if the date is valid (e.g., if given February 31, should I throw an exception)?
+
+You do not need to check this. Date handling is very complicated, especially with historic dates, and is usually done with a library for this reason. You do not need to check if a given day exists in a month/year. We will use valid dates to mark the assignment. Dates before the common era (BCE) will use a minus. For example, Julius Caesar was assassinated on March 15, 44 BCE; the year would be written as -44.
+
+6. Should we retain the capitalization for serialVersionUID, or use all caps because it is a constant?
+
+Because the variable is needed by the Serializable interface, we need to keep it in camelCase to correspond with the expectations of the authors of Serializable.
+
+7. Can I catch exceptions?
+
+We are expecting IllegalArgumentException, CommandArgumentNotProvidedException (from DayMemory main()), ArgFileNotFoundException (from Translator importFromText()) to be thrown but not caught. You may catch IOException, if in order to recover and close files.
+
+8. Where will the .ser and .txt files be located in testing?
+
+Your code should not need to have a relative or absolute path included. It should be able to handle files which are located in the working directory (the location from which the code is executed - which is not in the package directory structure). This is the default when no path is provided. Do not hard-code a file path.
+
+9. Will the language files which are tested be the ones which were provided?
+
+Many tests will use a made-up language which is not provided as an example. Also ensure that you can handle arbitrary file names which fit the expected format of two lower-case letters, a dash, and two upper-case letters.
+
+10. What is meant by %1$s, %2$s?
+
+These are String.format() style numbered arguments. This allows languages to include the arguments in a different order in the sentence. You cannot assume the arguments will always be in the same order in the sentence, or that the sentence won't contain characters which might confuse a regular expression.
+
+11. The output from el-GR doesn't look right. How can I fix it?
+
+First, make sure your terminal is correctly displaying UTF-8. On Windows Command Prompt, you can type "chcp 65001" to ensure UTF-8 can be printed properly. (We have not observed this issue on Mac or Linux.)
+
+Next, make sure the file is in UTF-8 format and this wasn't changed by your operating system or by copying.  The command "file el-GR.txt" will indicate what encoding is in use (Windows, Mac, and Linux). You can also instruct to use UTF-8 encoding with "-Dfile". For example:
+    java -Dfile.encoding=UTF-8 edu.ucalgary.oop.DayMemory el-GR
+
+Make sure that the class you are using supports UTF-8, and consider supplying the optional "utf-8" argument where appropriate. BufferedReader supports UTF-8 by default, but Scanner and FileInputStream should have the encoding type specified. You are strongly recommended to use BufferedReader to reduce problems with encoding and line endings.
+
+Sometimes, on Windows, all characters in the Greek characterset except lowercase rho are printed. If you see a question mark only for one character, it is an encoding issue in your terminal and you can expect that the tests will be unaffected.
+
+If you are still seeing strange output, consider running your code on a different operating system to determine if the issue is your computer or the code. You can run it on the cpsc servers (such as cpsc319).
+
+If you are unable to get el-GR to work, do not panic. The tests which are used for grading the code will use the Latin script. Thus is may contain characters like è and É but it will not contain characters from other scripts. We include the Greek characterset to show the complexities of translation.
+
+12. My code can create .ser files and read in the .ser files I create, but it cannot read in the included es-BO.ser file.
+
+If you cannot read in the serialized file provided by us, this means that there is a difference in your implementation compared to our implementation, and the .ser file we provided isn't being recognized as the correct type of object. Check that:
+- Your serialVersionUID is correct.
+- Your member data variables are consistent with the names implied by the getters.
+- Your arrays are declared with a fixed size, since this is known.
+- Your code is part of the correct package.
