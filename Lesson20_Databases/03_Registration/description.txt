@@ -27,3 +27,5 @@ Remember that each time you execute the given .sql file, the database will be re
 You should reset the database before each test run of your code.
 You will cannot drop the database if you are using it - you will need to switch to using another database.
 
+If you are having problems importing the SQL file, try removing the top lines which create the database, then running it after the database creation (from the tables).
+
