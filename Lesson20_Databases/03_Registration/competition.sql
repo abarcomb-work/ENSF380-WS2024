@@ -1,5 +1,8 @@
 /* 
  Each time this file is executed, it will reset the database to the original state defined below.
+ You can import this directly in your database by (a) manually entering the first three lines of
+ commands form this file, (b) removing the first three lines of commands from this file, and 
+ (c) \i 'path_to_file\competition.sql' (with appropriate use of \ or / based on OS).
  */
 
 DROP DATABASE IF EXISTS competition;
